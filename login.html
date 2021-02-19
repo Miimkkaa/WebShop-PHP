@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="./register.css" type="text/css">
+</head>
+<body style="width: 100%">
+
+<form action="loginPage.php" method="post" style="border:1px solid #ccc; width: 30%; margin-left: 35%">
+    <div class="container">
+        <h1>Login</h1>
+        <p>Don't have an account? <a href="register.html" style="color:dodgerblue">Sign up here</a>.</p>
+        <hr>
+
+        <label><b>Email:</b></label>
+        <input style="width: 90%;" type="text" placeholder="Your email" name="email" required>
+
+        <label><b>Password:</b></label>
+        <input style="width: 90%;" type="password" placeholder="Your password" name="pass" required>
+  <!--      <input style="width: 90%;" type="hidden" placeholder="Hidden element" name="hidden"> -->
+
+        <div class="clearfix">
+            <button type="button"  class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Log in</button>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
